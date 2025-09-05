@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8f8f8;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0077cc;
+  color: white;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+/* FAQ Styles */
+.faq {
+  margin-bottom: 10px;
+}
+.faq-answer {
+  display: none;
+  margin: 5px 0;
+  padding: 8px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+/* Dropdown Menu Styles */
+#dropdownMenu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  width: 150px;
+  background: white;
+  position: absolute;
+}
+#dropdownMenu li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+#dropdownMenu li a {
+  text-decoration: none;
+  color: #333;
+}
+#dropdownMenu li:hover {
+  background: #f0f0f0;
+}

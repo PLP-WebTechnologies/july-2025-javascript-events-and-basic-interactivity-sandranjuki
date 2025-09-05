@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 6 Assignment - Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌐 Interactive Web Page</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Event Handling Example</h2>
+    <button id="messageBtn">Click Me!</button>
+    <p id="message"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Light/Dark Mode Toggle</h2>
+    <button id="toggleMode">Switch Mode</button>
+  </section>
+
+  <section>
+    <h2>Counter Game</h2>
+    <button id="increaseBtn">Increase</button>
+    <button id="decreaseBtn">Decrease</button>
+    <p id="counterValue">0</p>
+  </section>
+
+  <section>
+    <h2>FAQ Section</h2>
+    <div class="faq">
+      <h3 class="faq-question">What is PLP? ▼</h3>
+      <p class="faq-answer">Power Learn Project (PLP) is a pan-African initiative that trains young people in software development and digital skills.</p>
+    </div>
+    <div class="faq">
+      <h3 class="faq-question">What is Web Development? ▼</h3>
+      <p class="faq-answer">Web development is the process of creating websites and web applications using HTML, CSS, JavaScript, and more.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Simple Dropdown Menu</h2>
+    <button id="dropdownBtn">Menu ▼</button>
+    <ul id="dropdownMenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Registration Form</h2>
+    <form id="registerForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
